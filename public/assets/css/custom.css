@@ -1,0 +1,20 @@
+
+.cursor { cursor: pointer;}
+.thumb{ margin-bottom: 10px;}
+.panel.widget .dimmer{ background: #fff;}
+.panel.widget h4{ color: #707070 ; margin-top: 0;}
+.panel.widget i { color: #22A7F0; background: transparent;}
+.side-menu .panel.widget .dimmer{ background: transparent;}
+.share-fb{margin-left: 5px;margin-right: 5px;}
+.send_alert{margin-left: 5px;}
+.loading{
+    background-image : url('../img/load.png');
+    background-size: 20px 20px;
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.loading:after {
+    content: "جاري نشر";
+    text-align : left;
+    padding-right : 25px;
+}

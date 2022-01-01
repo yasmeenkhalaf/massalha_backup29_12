@@ -1,0 +1,29 @@
+.article-title{
+    font-size: 21px;
+    color:#A08E64;
+}
+.article-title.bold{font-weight: bold;}
+.article-title:after{
+    content: "";
+    display: block;
+    width: 42px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #A08E64;
+}
+.article-txt{
+    font-size: 19px;
+    color: #707070;
+    line-height: 30px;
+}
+.article-subtitle{
+    font-size: 22px;
+    color:#A08E64;
+}
+#article-subtitle>p>strong{
+    font-size: 22px !important;
+    color: #A08E64 !important;
+    margin-bottom: 0.5rem;
+    font-weight: 500 !important;
+    line-height: 1.2;
+}

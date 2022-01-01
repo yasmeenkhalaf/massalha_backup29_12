@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'usage_help'           => 'You can get the value of each setting anywhere on your site by calling',
+    'save'                 => 'שמור הגדרות',
+    'new'                  => 'הגדרה חדשה',
+    'help_name'            => 'Setting name ex: Admin Title',
+    'help_key'             => 'Setting key ex: admin_title',
+    'help_option'          => '(optional, the same options as for the corresponding formfield apply)',
+    'add_new'              => 'הוסך הגדרות חדשות',
+    'delete_question'      => 'אתה בטוח שאתה רוצה למחוק :setting הגדרות?',
+    'delete_confirm'       => 'כן‫,‬ מחק הגדרה זו',
+    'successfully_created' => 'Successfully Created Settings',
+    'successfully_saved'   => 'הגדרות נשמרו בהצלחה',
+    'successfully_deleted' => 'הגדרה נמחקה בהצלחה',
+    'already_at_top'       => 'זה כבר קיים בראשית הרשימה',
+    'already_at_bottom'    => 'זה כבר קיים בתחתית הרשימה',
+    'key_already_exists'   => 'The key :key already exists',
+    'moved_order_up'       => 'הועבר :name setting order up',
+    'moved_order_down'     => 'הועבר :name setting order down',
+    'successfully_removed' => 'הוסר בהצלחה :name value',
+    'group_general'        => 'כללי',
+    'group_admin'          => 'אדמן',
+    'group_site'           => 'Site',
+    'group'                => 'קבוצה',
+    'help_group'           => 'Group this setting is assigned to',
+];
