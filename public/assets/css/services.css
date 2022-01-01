@@ -1,0 +1,95 @@
+.service-title{
+    font-size: 19px;
+    color: #A08E64;
+}
+.service-text{
+    font-size: 17px;
+    color: #909090;
+}
+.search-txt{
+    font-size: 19px;
+    color: #A08E64;
+}
+.search-input,.search-input:focus{
+    border: 1px solid rgba(112, 112, 112, 0.5);
+    outline: none;
+    height: 43px;
+    width: 100%;
+    border-radius: 8px;
+    padding-right: 8px;
+    font-size: 15px;
+    color: #909090;
+}
+.search-input::placeholder{
+    padding-right: 2px;
+    font-size: 15px;
+    color: #909090;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance:none;
+}
+.service-subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: #A08E64;
+}
+.nav-pills{
+    border-bottom: 1px solid #CBCBCB;
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: none;
+}
+.service-pills-link,.service-pills-link:hover{
+    font-size: 16px;
+    color: #909090;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.5);
+    margin-top: 20px;
+}
+.nav-pills .service-pills-link.active, .nav-pills .show>.service-pills-link{
+    color: #A08E64;
+    background: none !important;
+}
+.service-pills-link.active:after{
+    content: "";
+    display: block;
+    background-color: #A08E64;
+    width: 35%;
+    height: 3px;
+    position: relative;
+    top: 8px;
+    border-radius: 5px;
+}
+.service-tab-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #A08E64;
+}
+.service-tab-title:after {
+    content: "";
+    display: block;
+    background-color: #A08E64;
+    width: 43px;
+    height: 3px;
+    position: relative;
+    top: 8px;
+    border-radius: 5px;
+}
+.service-tab-text{
+    font-size: 18px;
+    color: #909090;
+}
+
+
+@media(max-width:900px){
+    .service-pills-link, .service-pills-link:hover{
+        text-align: center;
+    }
+    .service-pills-link.active:after,.service-tab-title:after{
+        margin: auto;
+    }
+}
