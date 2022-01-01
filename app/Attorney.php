@@ -13,3 +13,6 @@ class Attorney extends Model
 
     protected $translatable = ['name','job', 'about', 'education', 'experience'];
 }
+
+
+
